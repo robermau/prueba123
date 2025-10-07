@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/components/model/device-models.js"],
-  "sourcesContent": ["// REMIX HMR BEGIN\nimport * as __hmr__ from \"remix:hmr\";\nif (import.meta) {\nimport.meta.hot = __hmr__.createHotContext(\n//@ts-expect-error\n\"app\\\\components\\\\model\\\\device-models.js\"\n);\nimport.meta.hot.lastModified = \"1759533528975.7024\";\n}\n// REMIX HMR END\n\nimport iphone11 from '~/assets/iphone-11.glb';\r\nimport macbookPro from '~/assets/macbook-pro.glb';\r\n\r\nexport const ModelAnimationType = {\r\n  SpringUp: 'spring-up',\r\n  LaptopOpen: 'laptop-open',\r\n};\r\n\r\nexport const deviceModels = {\r\n  phone: {\r\n    url: iphone11,\r\n    width: 374,\r\n    height: 512,\r\n    position: { x: 0, y: 0, z: 0 },\r\n    animation: ModelAnimationType.SpringUp,\r\n  },\r\n  laptop: {\r\n    url: macbookPro,\r\n    width: 1280,\r\n    height: 800,\r\n    position: { x: 0, y: 0, z: 0 },\r\n    animation: ModelAnimationType.LaptopOpen,\r\n  },\r\n};\r\n"],
-  "mappings": ";;;;;;;;;;;AAEA,IAAI,aAAa;AACjB,cAAY,MAAc;AAAA;AAAA,IAE1B;AAAA,EACA;AACA,cAAY,IAAI,eAAe;AAC/B;AAMO,IAAM,qBAAqB;AAAA,EAChC,UAAU;AAAA,EACV,YAAY;AACd;AAEO,IAAM,eAAe;AAAA,EAC1B,OAAO;AAAA,IACL,KAAK;AAAA,IACL,OAAO;AAAA,IACP,QAAQ;AAAA,IACR,UAAU,EAAE,GAAG,GAAG,GAAG,GAAG,GAAG,EAAE;AAAA,IAC7B,WAAW,mBAAmB;AAAA,EAChC;AAAA,EACA,QAAQ;AAAA,IACN,KAAK;AAAA,IACL,OAAO;AAAA,IACP,QAAQ;AAAA,IACR,UAAU,EAAE,GAAG,GAAG,GAAG,GAAG,GAAG,EAAE;AAAA,IAC7B,WAAW,mBAAmB;AAAA,EAChC;AACF;",
-  "names": []
-}
