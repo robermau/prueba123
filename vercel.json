@@ -4,6 +4,6 @@
     { "src": "package.json", "use": "@vercel/remix" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/" }
+    { "src": "/(.*)" }
   ]
 }
