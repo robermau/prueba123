@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@remix-run/express"
+      "use": "@vercel/remix"
     }
   ],
   "routes": [
