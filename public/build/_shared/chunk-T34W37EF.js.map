@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/utils/throttle.js"],
+  "sourcesContent": ["// REMIX HMR BEGIN\nimport * as __hmr__ from \"remix:hmr\";\nif (import.meta) {\nimport.meta.hot = __hmr__.createHotContext(\n//@ts-expect-error\n\"app\\\\utils\\\\throttle.js\"\n);\nimport.meta.hot.lastModified = \"1759533529023.7258\";\n}\n// REMIX HMR END\n\nexport function throttle(func, timeFrame) {\r\n  let lastTime = 0;\r\n\r\n  return function (...args) {\r\n    const now = new Date();\r\n\r\n    if (now - lastTime >= timeFrame) {\r\n      func(...args);\r\n      lastTime = now;\r\n    }\r\n  };\r\n}\r\n"],
+  "mappings": ";;;;;AAEA,IAAI,aAAa;AACjB,cAAY,MAAc;AAAA;AAAA,IAE1B;AAAA,EACA;AACA,cAAY,IAAI,eAAe;AAC/B;AAGO,SAAS,SAAS,MAAM,WAAW;AACxC,MAAI,WAAW;AAEf,SAAO,YAAa,MAAM;AACxB,UAAM,MAAM,oBAAI,KAAK;AAErB,QAAI,MAAM,YAAY,WAAW;AAC/B,WAAK,GAAG,IAAI;AACZ,iBAAW;AAAA,IACb;AAAA,EACF;AACF;",
+  "names": []
+}

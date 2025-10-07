@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/config.json"],
+  "sourcesContent": ["{\r\n  \"name\": \"Mauricio Pucheta \",\r\n  \"role\": \"Desarrollador\",\r\n  \"disciplines\": [\"Frontend\", \"Backend\", \"UX / UI\"],\r\n  \"url\": \"https://mauriciopucheta.com\",\r\n  \"github\": \"mauripucheta1\",\r\n  \"instagram\": \"https://instagram.com/mauripucheta1\",\r\n  \"linkedin\": \"https://www.linkedin.com/in/mauriciopucheta20\",\r\n  \"repo\": \"https://github.com/mauripucheta1\",\r\n  \"ascii\": \"__  __  __\\n\\u005C \\u005C \\u005C \\u005C \\u005C\\u2215\\n \\u005C \\u005C\\u2215\\u005C \\u005C\\n  \\u005C\\u2215  \\u005C\\u2215\\n\"\r\n}\r\n"],
+  "mappings": ";AAAA;AAAA,EACE,MAAQ;AAAA,EACR,MAAQ;AAAA,EACR,aAAe,CAAC,YAAY,WAAW,SAAS;AAAA,EAChD,KAAO;AAAA,EACP,QAAU;AAAA,EACV,WAAa;AAAA,EACb,UAAY;AAAA,EACZ,MAAQ;AAAA,EACR,OAAS;AACX;",
+  "names": []
+}

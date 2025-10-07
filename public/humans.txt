@@ -1,0 +1,34 @@
+El archivo humans.txt explica el equipo, la tecnología y 
+los recursos gráficos detrás de este sitio humanstxt.org.
+
+_______________________________________________________________________________
+
+DISEÑO | デザイナー
+
+Mauricio Pucheta
+Diseño y desarrollo web hechos a mano
+
+Herramienta de diseño:
+Figma
+
+github.com/mauripucheta1
+
+_______________________________________________________________________________
+
+TECNOLOGÍA | テクノロジー
+
+React.js
+HTML
+CSS
+JavaScript
+Python
+Tailwind
+Node.js
+
+_______________________________________________________________________________
+
+FUENTES | フォント
+
+Gotham
+IPA Gothic Regular
+Hiragino Kaku Gothic W8
